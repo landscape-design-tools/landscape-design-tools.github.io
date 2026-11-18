@@ -134,3 +134,6 @@ svg .surface { stroke: var(--theme-accent); }
 .run-mode:has(+.mode-note){margin-bottom:9px}.mode-note{margin:0 0 18px!important;padding:8px 10px;border-left:2px solid var(--theme-line);background:#f3f7f5;color:var(--theme-mid)!important;font-size:10px!important;line-height:1.55!important}
 @media(max-width:900px){.layout-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.layout-summary article:nth-child(3){border-left:0}.layout-summary article:nth-child(4){border-left:1px}.layout-summary article:nth-child(odd){border-left:0}.layout-summary article:nth-child(n+3){border-top:1px solid var(--line)}}
 @media(max-width:500px){.layout-summary{grid-template-columns:1fr}.layout-summary article{border-left:0!important}.compact-results{grid-template-columns:1fr}}
+
+/* Show slope levels before the dimension inputs. */
+.inputs > .config-block[aria-labelledby="slope-level-title"]{margin-top:0;margin-bottom:22px}
